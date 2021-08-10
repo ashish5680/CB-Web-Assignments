@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+}
+
+body {
+    background-color: #47c5ff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* main div */
+
+.main {
+    max-width: 60vw;
+    margin: 20px auto;
+}
+
+
+
+.nav {
+    border: 2px solid black;
+    background-color: white;
+    padding-left: 10px;
+}
+.nav:hover {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+}
+.nav-content {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.nav-items {
+    margin-right: 25px;
+    font-size: 30px;
+    
+}
+.nav-items:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    
+}
+.container:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+
+}
+
+.container-content {
+    text-align: center;
+    padding: 60px 80px;
+    margin-left: 120px;
+}
+
+
+
+#hello {
+    font-size: 48px;
+}
+#text {
+    font-size: 32px;
+}
+.btn {
+    margin-top: 10px;
+    padding: 15px 25px;
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn:hover {
+    cursor: pointer;
+    border: 4px solid black;
+    font-weight: 700;
+}
+
+
+
+.about {
+    margin-top: 40px;
+    background-color: white;
+    padding: 30px;
+}
+.about:hover {
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.projects {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.projects:hover {
+    cursor:pointer;
+    border: 2px solid black;
+}
+
+
+.project-name {
+    list-style-type: none;
+    border: 2px solid grey;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.project-name:hover {
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+}
+
+
+.languages {
+    background-color: white;
+    padding: 30px;
+}
+
+.languages:hover {
+    border:2px solid black;
+    cursor: pointer;
+}
+
+
+.languages-name {
+    list-style-type: none;
+    border: 2px solid grey;
+    margin-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+.languages-name:hover {
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+}
+
+.all:hover {
+    box-shadow: 0px 0px 10px #00f5d4;
+}
+
+@media screen and (max-width:530px) {
+    .idiv{
+        margin-left:30px;
+    }
+    
+}
